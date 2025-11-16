@@ -47,7 +47,7 @@ export default function Login({ onLoginSuccess }) {
         </div>
 
         <h2 className="text-3xl font-extrabold text-center text-gray-800 mb-8">
-          {isRegister ? "Create Account" : "Welcome Back"}
+          {isRegister ? "Create Account" : "Selamat Datang!"}
         </h2>
 
         <form onSubmit={handleSubmit} className="space-y-6">
